@@ -2259,7 +2259,6 @@
     margin: auto;
 }
 
-
 .sketchfab3d,
 .sketchfab,
 .sketchfab-embed-wrapper{
@@ -2270,9 +2269,9 @@
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    left: 200px;
+    left: 250px;
     right: 0;
-    margin: auto;
+    margin: 10px;
 }
 
 .bgCover{

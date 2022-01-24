@@ -387,7 +387,11 @@
 }
 
 @media(min-width: 320px) and (max-width: 767px){
-    
+
+    #sketchfabhide{
+        display: none;    /* hide 3d on mobile */
+        }
+
     .header,
     .isSticky.fixedHeader{
         padding: 20px 15px;

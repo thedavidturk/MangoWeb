@@ -29,6 +29,7 @@
 [18] BLOG LIST
 [19] BLOG DETAIL
 [20] HOME THREE
+[21] MEDIA QUERIES
 ==========================================================================*/
 
 /*=======================================================================
@@ -2268,8 +2269,8 @@
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    left: 200px;
-    right: 0;
+    left: 250px;
+    right: 0px;
     margin: auto;
 }
 
@@ -2445,7 +2446,9 @@
 }
 .footer2 .newsletter input[type="email"]{
     border-color: #34c6f4;
-    width: 450px;
+    width: 250px;
 }
 
-
+/*=======================================================================
+[20] MEDIA QUERIES
+=========================================================================*/

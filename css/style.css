@@ -460,7 +460,7 @@
 =========================================================================*/
 .team{
     padding-bottom: 89px;
-    background: #85e4eb;
+    background: #ffc0ed;
 }
 .epr200{
     padding-right: 400px;
@@ -2277,9 +2277,9 @@
 
 .parTwoContent {
     background: #ffc711;
-    height: 640px;
+    /*height: 640px;*/
     position: absolute;
-    width: 460px;
+    /*width: 460px;*/
     padding: 112px 50px;
     right: auto;
     left: auto;
@@ -2445,5 +2445,23 @@
 }
 
 /*=======================================================================
-[20] MEDIA QUERIES
+[20] TICKER
 =========================================================================*/
+@keyframes ticker-kf {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-108rem, 0, 0);
+    }
+}
+
+.img-ticker {
+    animation: ticker-kf 18s linear infinite;
+}
+
+/*=======================================================================
+[20] SLIDER COVERS
+=========================================================================*/
+

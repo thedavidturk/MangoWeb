@@ -399,6 +399,11 @@
         display: none;    /* hide pulp main on mobile */
     }
 
+    .blogSection, #blog {
+        display: none;    /* hide pulp main on mobile */
+
+    }
+
     .ourwork, #slidershide {
         display: none;
     }

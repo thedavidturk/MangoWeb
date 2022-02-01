@@ -39,7 +39,7 @@
 [02] NORMALIZATION CSS
 =========================================================================*/
 htm,body{
-    color: #FFFFFF;
+    color: #34c6f4;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -84,7 +84,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
     color: #ffc112;
 }
 .color_white{
-    color: #fff;
+    color: #b51075;
 }
 .color_yellow{
     color: #fedd00
@@ -242,6 +242,11 @@ blockquote p{
 .bigTitle2 {
     margin-bottom: 92px;
 }
+
+.bigTitle4 {
+    margin-bottom: 92px;
+}
+
 .bigTitle2 h5{
     margin-bottom: 45px;
 }

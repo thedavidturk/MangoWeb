@@ -302,6 +302,7 @@
 }
 
 @media(min-width: 990px) and (max-width: 1280px){
+
     .logo{
         top: 0;
     }
@@ -380,6 +381,8 @@
         font-size: 100px;
         line-height: 100px
     }
+
+
     .typewrite > .wrap::after{
         height: 62px;
     }
@@ -391,6 +394,10 @@
     #sketchfabhide{
         display: none;    /* hide 3d on mobile */
         }
+
+    .team, #pulphide {
+        display: none;    /* hide pulp main on mobile */
+    }
 
     .header,
     .isSticky.fixedHeader{

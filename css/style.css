@@ -26,7 +26,9 @@
 [20] HOME THREE
 [21] MEDIA QUERIES
 ==========================================================================*/
-
+body {
+    background-color: #ffc711;
+}
 /*=======================================================================
 [01] HEADER
 =========================================================================*/
@@ -342,6 +344,7 @@
 =========================================================================*/
 .about{
     padding-bottom: 86px;
+    background-color: #ffc711;
 }
 .aboutTop{
     padding-top: 163px;
@@ -397,10 +400,10 @@
     margin-bottom: 12px;
 }
 .ourServices {
-    margin-top: -110px;
+    margin-top: 110px;
 }
 .singleService {
-    background: #fff;
+    background: #ff5133;
     box-shadow: 0 3px 7px rgba(0, 0, 0, .1);
     margin-left: 7px;
     margin-right: 7px;
@@ -434,12 +437,17 @@
 .singleService h6.lead {
     line-height: 0.7;
     margin: 0 0 67px;
-    color: #000;
+    color: #b51075;
 }
 .singleService p{
     font-weight: 300;
     font-size: 20px;
 }
+
+.singleService ul {
+    color: #ffc711;
+}
+
 .singleService p:last-of-type{
     margin-bottom: 32px;
 }
@@ -2252,6 +2260,21 @@
     left: 0;
     right: 0;
 }
+/*.sketchfab-embed-wrapper{*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    width: 100%;*/
+/*    padding-top: 56.25%; !* 16:9 Aspect Ratio*!*/
+/*}*/
+/*.sketchfab-embed-wrapper iframe{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
 
 
 .sketchfab3d,
@@ -2264,6 +2287,15 @@
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    left: 250px;
+    right: 0px;
+    margin: auto;
+}
+
+.sketchfab3d2,
+.sketchfab2,
+.sketchfab-embed-wrapper2{
+    position: inherit;
     left: 250px;
     right: 0px;
     margin: auto;

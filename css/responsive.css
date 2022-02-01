@@ -399,6 +399,10 @@
         display: none;    /* hide pulp main on mobile */
     }
 
+    .ourwork, #slidershide {
+        display: none;
+    }
+
     .header,
     .isSticky.fixedHeader{
         padding: 20px 15px;

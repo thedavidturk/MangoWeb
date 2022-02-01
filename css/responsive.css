@@ -831,7 +831,7 @@
 
     /**Home Three**/
     .mainMenu_home3 > ul {
-        background: #85e4eb;
+        background: #1c3ad8;
         position: fixed;
         right: -245px;
         top: 0;
@@ -840,14 +840,14 @@
         bottom: 0;
     }
     .mainMenu_home3 > ul li{
-        border-bottom: 2px solid #272727;
+        border-bottom: 2px solid #34c6f4;
         text-align: right;
         margin-left: 30px;
     }
     .mainMenu_home3 > ul li a{
         font-size: 14px;
         text-transform: uppercase;
-        color: #fff;
+        color: #85e4eb;
         font-weight: 700;
         letter-spacing: 1px;
         padding-right: 50px;

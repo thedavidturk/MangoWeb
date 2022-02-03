@@ -1,36 +1,12 @@
 /*
-
+CSS MAIN FUNCTIONALITIES
 */
-/*=======================================================================
-[Table of contents]
-=========================================================================
-[01] HEADER
-[02] SLIDER
-[03] ABOUT
-[04] TEAM
-[05] WHAT WE DO
-[06] OUR WORK
-[07] CHOOSE US
-[08] TESTMONIAL
-[09] OUR CLIENT
-[10] OUR BLOG
-[11] WHAT SAY
-[12] CONTACT
-[13] FOOTER
-[14] SUBSCRIPTION POPUP
-[15] BACK TO TOP
-[16] HOME TWO
-[17] WORK DETAIL
-[18] BLOG LIST
-[19] BLOG DETAIL
-[20] HOME THREE
-[21] MEDIA QUERIES
-==========================================================================*/
+
 body {
     background-color: #ffc711;
 }
 /*=======================================================================
-[01] HEADER
+[01] HEADER/MAIN
 =========================================================================*/
 .header{
     position: absolute;
@@ -838,7 +814,7 @@ body {
 [10] OUR BLOG
 =========================================================================*/
 .blogSection{
-    background: url(../images/bg/54.gif) no-repeat fixed center center/cover;
+    background: url(../images/bg/) no-repeat fixed center center/cover;
     padding: 123px 0 140px;
 }
 .singleBlog{
